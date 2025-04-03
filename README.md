@@ -11,7 +11,7 @@ Content
 This data set is highly imbalanced and contains details of a bank's customers and the target variable is a binary variable reflecting the fact whether the customer left the bank (closed his account) or he continues to be a customer.
 
 
-## Data Preprocessing Steps
+## General Data Preprocessing Steps (And Possible Things to Help)
 
 - Clean Up Data: The process of analyzing and correcting errors or inconsistencies in the dataset. It involves handling missing values, removing duplicates, and correcting incorrect or outlier data to ensure the dataset is accurate and reliable.
 
@@ -29,3 +29,9 @@ This data set is highly imbalanced and contains details of a bank's customers an
   - Encoding categorical variables: Converting categorical data into numerical values using one-hot or label encoding techniques.
   - Feature engineering and extraction: Creating new features or selecting important ones to improve model performance.
 
+- Data Reduction: Simplifies the dataset by reducing the number of features or records while preserving the essential information. This helps speed up analysis and model training without sacrificing accuracy.
+  - Dimensionality Reduction (e.g., Principal Component Analysis): A technique that reduces the number of variables in a dataset while retaining its essential information.
+  - Numerosity Reduction: Reducing the number of data points by methods like sampling to simplify the dataset without losing critical patterns.
+  - Data Compression: Reducing the size of data by encoding it in a more compact form, making it easier to store and process.
+
+Links: https://www.geeksforgeeks.org/data-preprocessing-in-data-mining/ and https://www.datacamp.com/blog/data-preprocessing
